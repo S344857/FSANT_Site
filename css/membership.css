@@ -1,0 +1,74 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.para{
+  margin: 0%;
+  padding: 0;
+  text-align: center;
+  right: 20%;
+}
+
+
+
+/* Location styles */
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Card styles */
+.cards {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.cards .image {
+  margin-bottom: 20px;
+  
+}
+
+.cards .image img {
+  max-width: 100%;
+}
+
+.cards .title {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cards .des {
+  margin-bottom: 20px;
+}
+.cards .des p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+.cards .text {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .cards {
+    max-width: 100%;
+  }
+}
+
